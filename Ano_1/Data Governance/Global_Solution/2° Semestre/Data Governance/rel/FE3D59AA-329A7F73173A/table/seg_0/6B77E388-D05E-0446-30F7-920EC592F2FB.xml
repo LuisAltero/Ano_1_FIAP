@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6B77E388-D05E-0446-30F7-920EC592F2FB" name="T_SRC_INSTITUICAO_CARIDADE">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:52:46 UTC</createdTime>
+<generatorID>3DF0DBAD-C56B-1932-F131-3BBE2CE654A1</generatorID>
+<ownerDesignName>Data Governance</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_instituicao" id="66DD1EB6-705E-4230-1F2B-9E7EA4B6F9C4">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:52:46 UTC</createdTime>
+<generatorID>07EED6E8-45D7-9BFE-4FD0-74AF163BAAE2</generatorID>
+<ownerDesignName>Data Governance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cnpj" id="DC7F09E2-A091-A8B9-83C0-317D6ACD158F">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:52:46 UTC</createdTime>
+<generatorID>4C12E657-C2B4-28EA-0B8B-F4D8BAE48531</generatorID>
+<ownerDesignName>Data Governance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,14,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_instituicao" id="D26A123A-BDB3-691E-F34B-E36D007DDD79">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:52:46 UTC</createdTime>
+<generatorID>E79DC177-D2A2-1BF3-0591-33916E0A651B</generatorID>
+<ownerDesignName>Data Governance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4323DFC2-8E30-F7FA-3AB5-FE03F048D8AF" name="PK_SRC_INST_CARIDADE">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:52:46 UTC</createdTime>
+<generatorID>7220F2E0-2B7C-FFB3-7460-08DE3758E8C6</generatorID>
+<ownerDesignName>Data Governance</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66DD1EB6-705E-4230-1F2B-9E7EA4B6F9C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3FA85597-EE9E-2886-7CE1-1FFD85CEBCCF" name="UN_SRC_INST_CARIDADE_CNPJ">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-05 13:38:57 UTC</createdTime>
+<comment><![CDATA[O CNPJ deve ser unico para Instiuição de Caridade]]></comment>
+<ownerDesignName>Data Governance</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC7F09E2-A091-A8B9-83C0-317D6ACD158F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

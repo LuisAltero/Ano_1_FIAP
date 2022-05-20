@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BFD85C6E-BD15-FA99-AFF7-DB4372320F24" name="T_SRC_POSTO_COLETA">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:52:46 UTC</createdTime>
+<generatorID>1192B14A-F26F-9A4C-0B9D-B52B1B1702CD</generatorID>
+<ownerDesignName>Data Governance</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_posto_coleta" id="FB3F861A-34D9-B098-05F7-EE137A68311E">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:52:46 UTC</createdTime>
+<generatorID>D3DF7C94-77D7-C0DE-49C6-41AAFA20F491</generatorID>
+<ownerDesignName>Data Governance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cep" id="479B7E2B-B160-E64B-C283-407171BDE3CD">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:52:46 UTC</createdTime>
+<generatorID>1D20CC58-3527-FF7F-0F12-D8870E9C2BB3</generatorID>
+<ownerDesignName>Data Governance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC826D06-2E75-7386-EAED-B1B23D2AC765" referredColumn="20484A53-5AAC-C6BF-4F8C-B931E5682F92"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CA27CF30-995E-D623-F5C2-F015D4D7B347" name="PK_SRC_POSTO_COLETA">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:52:46 UTC</createdTime>
+<generatorID>6ED62FB3-644B-1F0F-CA2E-A77B19857F83</generatorID>
+<ownerDesignName>Data Governance</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB3F861A-34D9-B098-05F7-EE137A68311E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C359CFD-9ACD-BDDC-EB6F-8E0D3A25DA6F" name="FK_SRC_POSTO_COLETA_LOCAL">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:52:46 UTC</createdTime>
+<generatorID>0452B91D-858B-8B88-342B-E30EFE91D8F4</generatorID>
+<ownerDesignName>Data Governance</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="479B7E2B-B160-E64B-C283-407171BDE3CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

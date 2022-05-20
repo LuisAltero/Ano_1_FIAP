@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BBD296B6-A655-72DD-414B-9F51BA35020D" name="T_SRC_DOACAO">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:52:46 UTC</createdTime>
+<generatorID>7A83332E-A46B-0123-725F-D557AD3538ED</generatorID>
+<ownerDesignName>Data Governance</ownerDesignName>
+<ordsAlias>t_src_docao</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_doacao" id="8107D03D-26CF-0A19-2616-173BB86CC89F">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:52:46 UTC</createdTime>
+<generatorID>45F6A99A-B124-5BC9-B4EF-A689AEBAD6B7</generatorID>
+<ownerDesignName>Data Governance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_doador" id="E3C117D8-7C23-A2D3-E8F8-C7B4A44522F4">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:52:46 UTC</createdTime>
+<generatorID>20034443-8B28-1B6B-35EC-EF46F61900E0</generatorID>
+<ownerDesignName>Data Governance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F48AB91-ED0C-9EFF-3B66-21F20237B14F" referredColumn="6DC3D1D3-807A-371A-D5A8-FDD2DD68DDB1"/>
+</associations>
+</Column>
+<Column name="cd_reciclavel" id="566B1534-F8BA-0502-E631-3384EA9D2709">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:52:46 UTC</createdTime>
+<generatorID>C2590D98-68E7-F7FD-DB6D-94D259D2DE2A</generatorID>
+<ownerDesignName>Data Governance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="124E6C78-4BDF-92DB-1899-E5A199878B35" referredColumn="86F47840-31AB-7349-D6AA-F87712502BA1"/>
+</associations>
+</Column>
+<Column name="cd_posto_coleta" id="E414CBD8-8B3D-4A90-D16B-F1BE6CFC6173">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:52:46 UTC</createdTime>
+<generatorID>2D7B78CB-66BC-C97D-F263-251AB2015CAA</generatorID>
+<ownerDesignName>Data Governance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="24885E72-568F-8678-BD6F-56A8AC41C0CD" referredColumn="FB3F861A-34D9-B098-05F7-EE137A68311E"/>
+</associations>
+</Column>
+<Column name="vl_peso_material" id="3916DD1F-BD1D-9210-7DBE-44D581989437">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:52:46 UTC</createdTime>
+<generatorID>5F6DBD77-21AF-52B3-3B31-95F8C77B756B</generatorID>
+<ownerDesignName>Data Governance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="08D842DD-6FA7-8D9A-1BC9-7BF75D218900" name="PK_SRC_DOACAO">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:52:46 UTC</createdTime>
+<generatorID>81FAB56B-C3F0-AADE-9782-C3FA4CE0E221</generatorID>
+<ownerDesignName>Data Governance</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8107D03D-26CF-0A19-2616-173BB86CC89F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5583E18A-865C-426C-886C-3FC2ECD32966" name="FK_SRC_DOACAO_POSTO_COLETA">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:52:46 UTC</createdTime>
+<generatorID>43AAFCC8-3CE9-F514-8EEF-1FC184AEC2CD</generatorID>
+<ownerDesignName>Data Governance</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E414CBD8-8B3D-4A90-D16B-F1BE6CFC6173"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6ED251DE-7171-968F-A46C-BD50E57C4B86" name="FK_SRC_DOACAO_DOADOR">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:52:46 UTC</createdTime>
+<generatorID>F41F5263-C798-6508-5F49-B211AAA912C1</generatorID>
+<ownerDesignName>Data Governance</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3C117D8-7C23-A2D3-E8F8-C7B4A44522F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD836DF4-007B-37B9-FBDC-B785BE99339B" name="FK_SRC_DOACAO_LIXO">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:52:46 UTC</createdTime>
+<generatorID>EA3A469C-BAC5-75B3-8EA7-A290E9141B7C</generatorID>
+<ownerDesignName>Data Governance</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="566B1534-F8BA-0502-E631-3384EA9D2709"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_SRC_DOACAO_PESO_MATERIAL" directorySegmentName="seg_0" id="91064D16-4D30-3F48-86D8-6819B6681612">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-05 14:04:21 UTC</createdTime>
+<ownerDesignName>Data Governance</ownerDesignName>
+<rule><![CDATA[vl_peso_material >= 0]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

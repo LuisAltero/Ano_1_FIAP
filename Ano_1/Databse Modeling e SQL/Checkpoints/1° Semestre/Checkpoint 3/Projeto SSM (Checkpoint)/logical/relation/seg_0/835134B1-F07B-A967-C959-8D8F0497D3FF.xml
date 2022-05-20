@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Ser" directorySegmentName="seg_0" id="835134B1-F07B-A967-C959-8D8F0497D3FF">
+<createdBy>bruno</createdBy>
+<createdTime>2021-05-03 02:35:07 UTC</createdTime>
+<ownerDesignName>Projeto SSM (Checkpoint)</ownerDesignName>
+<engineerTo>
+<item key="0C20D50F-88A4-680D-86C5-25FD940ACE4D" value="true"/>
+</engineerTo>
+<sourcePk>336136C9-C756-613F-9510-83C89DF0AF61</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>68C19A9E-7A9D-F968-1270-F19CA128EA59</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FD488895-A3BA-564A-2247-2BD5A6AD9E45</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="79101D59-877A-8491-E20E-C8274974DEE4" containerWithKeyObject="DCE893A2-DB96-569B-E379-8734E7DA4F3A" localFKIndex="70452077-417E-4665-3410-58640B4BF9BC" name="FK_SRC_DOADOR_INST_CARIDADE">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:52:46 UTC</createdTime>
+<generatorID>2C8B3127-55EB-9155-415B-A2A6CE3BF802</generatorID>
+<ownerDesignName>Data Governance</ownerDesignName>
+<referredTableLongName>T_SRC_INSTITUICAO_CARIDADE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6B77E388-D05E-0446-30F7-920EC592F2FB</referredTableID>
+<keyObject>4323DFC2-8E30-F7FA-3AB5-FE03F048D8AF</keyObject>
+<referredKeyID>4323DFC2-8E30-F7FA-3AB5-FE03F048D8AF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_instituicao</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

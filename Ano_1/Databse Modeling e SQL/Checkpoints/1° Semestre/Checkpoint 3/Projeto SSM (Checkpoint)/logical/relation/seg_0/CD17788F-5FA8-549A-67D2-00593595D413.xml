@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Conterv1" directorySegmentName="seg_0" id="CD17788F-5FA8-549A-67D2-00593595D413">
+<createdBy>bruno</createdBy>
+<createdTime>2021-05-03 20:12:15 UTC</createdTime>
+<ownerDesignName>Projeto SSM (Checkpoint)</ownerDesignName>
+<engineerTo>
+<item key="0C20D50F-88A4-680D-86C5-25FD940ACE4D" value="true"/>
+</engineerTo>
+<sourcePk>7B578963-0CD3-A7AF-53DD-BFE4A0ED23B8</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>238E6398-729D-DCD0-3B10-A8F1D91A5120</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C4130249-D12A-EB28-3833-B37ACCD37752</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

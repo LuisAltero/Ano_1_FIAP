@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="40027F92-A1F9-AB91-7A85-DA15D62062BC" name="T_SSM_ARTISTA">
+<createdBy>bruno</createdBy>
+<createdTime>2021-05-02 19:28:49 UTC</createdTime>
+<ownerDesignName>Projeto SSM (Checkpoint)</ownerDesignName>
+<engineerTo>
+<item key="0C20D50F-88A4-680D-86C5-25FD940ACE4D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_artista" id="3406EF33-7CEA-AB4D-A173-68AE53C05E8A">
+<createdBy>bruno</createdBy>
+<createdTime>2021-05-02 19:28:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[RN32 – Código do artista é um número com 4 dígitos.]]></commentInRDBMS>
+<ownerDesignName>Projeto SSM (Checkpoint)</ownerDesignName>
+<engineerTo>
+<item key="0C20D50F-88A4-680D-86C5-25FD940ACE4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_artista" id="06715EDD-F8CC-40F6-2861-E95E690333E4">
+<createdBy>bruno</createdBy>
+<createdTime>2021-05-02 19:28:49 UTC</createdTime>
+<ownerDesignName>Projeto SSM (Checkpoint)</ownerDesignName>
+<engineerTo>
+<item key="0C20D50F-88A4-680D-86C5-25FD940ACE4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4A99F1D4-CDE2-72E2-0898-FC056042C80E" name="T_SSM_USUARIO PK">
+<createdBy>bruno</createdBy>
+<createdTime>2021-05-02 19:28:49 UTC</createdTime>
+<ownerDesignName>Projeto SSM (Checkpoint)</ownerDesignName>
+<engineerTo>
+<item key="0C20D50F-88A4-680D-86C5-25FD940ACE4D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3406EF33-7CEA-AB4D-A173-68AE53C05E8A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

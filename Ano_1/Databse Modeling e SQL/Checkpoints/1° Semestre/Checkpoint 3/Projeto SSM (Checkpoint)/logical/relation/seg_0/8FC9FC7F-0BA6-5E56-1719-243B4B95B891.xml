@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Classificar" directorySegmentName="seg_0" id="8FC9FC7F-0BA6-5E56-1719-243B4B95B891">
+<createdBy>bruno</createdBy>
+<createdTime>2021-05-03 01:46:06 UTC</createdTime>
+<ownerDesignName>Projeto SSM (Checkpoint)</ownerDesignName>
+<engineerTo>
+<item key="0C20D50F-88A4-680D-86C5-25FD940ACE4D" value="true"/>
+</engineerTo>
+<sourcePk>694637E1-ABBE-6E42-42D1-0C995762361E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E605E167-6181-6196-410E-8A35C09BE3A5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CE08C8FF-EB90-694A-548C-CB05CD60D4FD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

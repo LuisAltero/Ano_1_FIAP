@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Cantar" directorySegmentName="seg_0" id="1D80CB31-E7C4-D970-7585-617404A19BE3">
+<createdBy>bruno</createdBy>
+<createdTime>2021-05-03 20:36:27 UTC</createdTime>
+<ownerDesignName>Projeto SSM (Checkpoint)</ownerDesignName>
+<engineerTo>
+<item key="0C20D50F-88A4-680D-86C5-25FD940ACE4D" value="true"/>
+</engineerTo>
+<sourcePk>D7FA444D-B516-16D3-451B-411D37E98B10</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F8E7986C-24B9-FD3B-4CBA-3D92D1033760</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>18DE218E-896E-8552-0405-68BFC944BEC6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

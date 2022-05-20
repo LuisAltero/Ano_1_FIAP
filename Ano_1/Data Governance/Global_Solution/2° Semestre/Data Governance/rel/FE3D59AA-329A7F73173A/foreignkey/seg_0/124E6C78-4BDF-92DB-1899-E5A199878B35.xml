@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="124E6C78-4BDF-92DB-1899-E5A199878B35" containerWithKeyObject="BBD296B6-A655-72DD-414B-9F51BA35020D" localFKIndex="BD836DF4-007B-37B9-FBDC-B785BE99339B" name="FK_SRC_DOACAO_LIXO">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:52:46 UTC</createdTime>
+<generatorID>EA3A469C-BAC5-75B3-8EA7-A290E9141B7C</generatorID>
+<ownerDesignName>Data Governance</ownerDesignName>
+<referredTableLongName>T_SRC_RECICLAVEL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1ADFAC65-C1C8-42B0-DADD-BD8BEE0A88A3</referredTableID>
+<keyObject>DDE44D17-3BE8-51BD-EC4B-3BBD4775ABF1</keyObject>
+<referredKeyID>DDE44D17-3BE8-51BD-EC4B-3BBD4775ABF1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_reciclavel</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

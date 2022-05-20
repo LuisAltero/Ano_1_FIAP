@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1ADFAC65-C1C8-42B0-DADD-BD8BEE0A88A3" name="T_SRC_RECICLAVEL">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:52:46 UTC</createdTime>
+<generatorID>EED29F9B-3555-172C-455E-26244873F221</generatorID>
+<ownerDesignName>Data Governance</ownerDesignName>
+<ordsAlias>t_src_lixo</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_reciclavel" id="86F47840-31AB-7349-D6AA-F87712502BA1">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:52:46 UTC</createdTime>
+<generatorID>A3A41E2F-57DE-54A7-1321-F495CA40F487</generatorID>
+<ownerDesignName>Data Governance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_tipo" id="8556FBEE-EA56-BBAA-D99D-89F5545481F8">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:52:46 UTC</createdTime>
+<generatorID>6D57CB5A-8E13-59C5-64CE-811166E11E14</generatorID>
+<ownerDesignName>Data Governance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_cor" id="5AE7B606-9675-8DAB-BC42-F1866F42702E">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-05 13:48:05 UTC</createdTime>
+<ownerDesignName>Data Governance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_cashback" id="2326E2EF-C5F7-71A8-C1EA-802C44A76D20">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:52:46 UTC</createdTime>
+<generatorID>6938414A-9CBE-5B12-51F8-21B8B3002C7E</generatorID>
+<ownerDesignName>Data Governance</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DDE44D17-3BE8-51BD-EC4B-3BBD4775ABF1" name="PK_SRC_RECICLAVEL">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:52:46 UTC</createdTime>
+<generatorID>172B4B83-727E-BEE8-6296-5415CA846CCE</generatorID>
+<ownerDesignName>Data Governance</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86F47840-31AB-7349-D6AA-F87712502BA1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F2516C34-06B7-35BE-39F1-39496DF994BA" name="UN_SRC_RECICLAVEL_COR">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-05 13:53:52 UTC</createdTime>
+<comment><![CDATA[Não podem existir cores repetidas]]></comment>
+<ownerDesignName>Data Governance</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5AE7B606-9675-8DAB-BC42-F1866F42702E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4169CE47-CA14-DC3F-DE84-D9976F7BDA3D" name="UN_SRC_RECICLAVEL_TIPO">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-05 13:53:52 UTC</createdTime>
+<comment><![CDATA[Não pode haver tipo repetido]]></comment>
+<ownerDesignName>Data Governance</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8556FBEE-EA56-BBAA-D99D-89F5545481F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_SRC_RECICLAVEL_COR" directorySegmentName="seg_0" id="42CD9C09-1C8D-87A2-F9C6-B13D1C3B88F8">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-05 13:59:22 UTC</createdTime>
+<ownerDesignName>Data Governance</ownerDesignName>
+<rule><![CDATA[ds_cor in ("AZUL","VERMELHO","VERDE","AMARELO","PRETO","LARANJA","BRANCO","ROXO","MARROM","CINZA")]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

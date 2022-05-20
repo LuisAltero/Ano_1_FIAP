@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FD488895-A3BA-564A-2247-2BD5A6AD9E45" name="T_SSM_ALBUM_USUARIO">
+<createdBy>bruno</createdBy>
+<createdTime>2021-05-03 01:31:24 UTC</createdTime>
+<ownerDesignName>Projeto SSM (Checkpoint)</ownerDesignName>
+<engineerTo>
+<item key="0C20D50F-88A4-680D-86C5-25FD940ACE4D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_usuario" id="AFBB2D3D-D9CC-5BB3-7C14-CD454E9D81FB">
+<createdBy>bruno</createdBy>
+<createdTime>2021-05-03 02:32:53 UTC</createdTime>
+<generatorID>3803EF00-BBEB-4E64-65C6-569515A252A1</generatorID>
+<ownerDesignName>Projeto SSM (Checkpoint)</ownerDesignName>
+<engineerTo>
+<item key="0C20D50F-88A4-680D-86C5-25FD940ACE4D" value="true"/>
+</engineerTo>
+<referedAttribute>8B9927D1-EF90-C74E-CF7D-7FD3E9426659</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_album" id="1CC9F52D-BF3C-10C3-BF55-6B9100DE1302">
+<createdBy>bruno</createdBy>
+<createdTime>2021-05-03 02:35:07 UTC</createdTime>
+<generatorID>835134B1-F07B-A967-C959-8D8F0497D3FF</generatorID>
+<ownerDesignName>Projeto SSM (Checkpoint)</ownerDesignName>
+<engineerTo>
+<item key="0C20D50F-88A4-680D-86C5-25FD940ACE4D" value="true"/>
+</engineerTo>
+<referedAttribute>E1BD691C-31EA-C1AC-6EE2-C6A5A0C5B794</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_favorito" id="AF31E9E5-CEDE-208F-C2D6-538B113CE371">
+<createdBy>bruno</createdBy>
+<createdTime>2021-05-03 01:32:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[RN14 – Um usuário pode ter vários álbuns preferidos em seu perfil.
+RN15 – Os álbuns selecionados por usuários, pertencem apenas a ele, podendo ser
+favorito ou não.]]></commentInRDBMS>
+<ownerDesignName>Projeto SSM (Checkpoint)</ownerDesignName>
+<engineerTo>
+<item key="0C20D50F-88A4-680D-86C5-25FD940ACE4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="670BD01E-0766-23B9-C0AC-4E3A7671BBE1" name="T_SSM_USUARIO PK">
+<createdBy>bruno</createdBy>
+<createdTime>2021-05-03 01:31:24 UTC</createdTime>
+<ownerDesignName>Projeto SSM (Checkpoint)</ownerDesignName>
+<engineerTo>
+<item key="0C20D50F-88A4-680D-86C5-25FD940ACE4D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AFBB2D3D-D9CC-5BB3-7C14-CD454E9D81FB</attributeRef>
+<attributeRef>1CC9F52D-BF3C-10C3-BF55-6B9100DE1302</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

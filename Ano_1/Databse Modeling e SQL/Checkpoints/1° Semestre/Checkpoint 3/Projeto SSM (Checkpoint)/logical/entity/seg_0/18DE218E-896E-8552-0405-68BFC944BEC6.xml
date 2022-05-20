@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="18DE218E-896E-8552-0405-68BFC944BEC6" name="T_SSM_ARTISTA_MUSICA">
+<createdBy>bruno</createdBy>
+<createdTime>2021-05-03 20:05:08 UTC</createdTime>
+<ownerDesignName>Projeto SSM (Checkpoint)</ownerDesignName>
+<engineerTo>
+<item key="0C20D50F-88A4-680D-86C5-25FD940ACE4D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_artista" id="ECEBBA97-6AE0-EE08-25C1-70C6E08C796D">
+<createdBy>bruno</createdBy>
+<createdTime>2021-05-03 20:37:43 UTC</createdTime>
+<generatorID>8A4A9AA1-7438-65C3-5A66-C8D2452C0DE0</generatorID>
+<ownerDesignName>Projeto SSM (Checkpoint)</ownerDesignName>
+<engineerTo>
+<item key="0C20D50F-88A4-680D-86C5-25FD940ACE4D" value="true"/>
+</engineerTo>
+<referedAttribute>3406EF33-7CEA-AB4D-A173-68AE53C05E8A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_musica" id="E1DA1F75-9DF4-FB7C-2C9C-D281B61B9AE0">
+<createdBy>bruno</createdBy>
+<createdTime>2021-05-03 20:36:27 UTC</createdTime>
+<generatorID>1D80CB31-E7C4-D970-7585-617404A19BE3</generatorID>
+<ownerDesignName>Projeto SSM (Checkpoint)</ownerDesignName>
+<engineerTo>
+<item key="0C20D50F-88A4-680D-86C5-25FD940ACE4D" value="true"/>
+</engineerTo>
+<referedAttribute>06953F72-F3C8-BBE1-8468-30C6DD7A1047</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_status_interprete" id="387C468F-71B0-7BED-1BEC-D57B2F88ACB2">
+<createdBy>bruno</createdBy>
+<createdTime>2021-05-03 20:05:33 UTC</createdTime>
+<ownerDesignName>Projeto SSM (Checkpoint)</ownerDesignName>
+<engineerTo>
+<item key="0C20D50F-88A4-680D-86C5-25FD940ACE4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_status_compositor" id="E219DB05-3A5E-7554-36F6-58FDB2FC6FEA">
+<createdBy>bruno</createdBy>
+<createdTime>2021-05-03 20:05:51 UTC</createdTime>
+<ownerDesignName>Projeto SSM (Checkpoint)</ownerDesignName>
+<engineerTo>
+<item key="0C20D50F-88A4-680D-86C5-25FD940ACE4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6ADFDC3C-6B2C-A2BA-AAF4-8810A37F580F" name="T_SSM_ARTISTA_MUSICA PK">
+<createdBy>bruno</createdBy>
+<createdTime>2021-05-03 20:36:27 UTC</createdTime>
+<ownerDesignName>Projeto SSM (Checkpoint)</ownerDesignName>
+<engineerTo>
+<item key="0C20D50F-88A4-680D-86C5-25FD940ACE4D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E1DA1F75-9DF4-FB7C-2C9C-D281B61B9AE0</attributeRef>
+<attributeRef>ECEBBA97-6AE0-EE08-25C1-70C6E08C796D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

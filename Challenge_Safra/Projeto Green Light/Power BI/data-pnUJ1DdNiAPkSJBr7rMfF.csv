@@ -1,0 +1,501 @@
+nr_protocolo,st_análise
+1,Seguros
+2,Conta Corrente
+3,Seguros
+4,Cambio
+5,Seguros
+6,Seguros
+7,Credito
+8,Credito
+9,Conta Corrente
+10,Ligacoes Excessivas
+11,Conta Corrente
+12,Seguros
+13,Seguros
+14,Seguros
+15,Ligacoes Excessivas
+16,Cambio
+17,Ligacoes Excessivas
+18,Seguros
+19,Credito
+20,Conta Corrente
+21,Cambio
+22,Cambio
+23,Ligacoes Excessivas
+24,Credito
+25,Ligacoes Excessivas
+26,Seguros
+27,Conta Corrente
+28,Credito
+29,Cambio
+30,Ligacoes Excessivas
+31,Conta Corrente
+32,Cartao
+33,Seguros
+34,Credito
+35,Conta Corrente
+36,Cartao
+37,Cartao
+38,Seguros
+39,Conta Corrente
+40,Seguros
+41,Credito
+42,Seguros
+43,Ligacoes Excessivas
+44,Credito
+45,Cambio
+46,Conta Corrente
+47,Credito
+48,Cartao
+49,Conta Corrente
+50,Ligacoes Excessivas
+51,Credito
+52,Cartao
+53,Ligacoes Excessivas
+54,Conta Corrente
+55,Cambio
+56,Conta Corrente
+57,Cartao
+58,Seguros
+59,Seguros
+60,Cartao
+61,Credito
+62,Ligacoes Excessivas
+63,Conta Corrente
+64,Cartao
+65,Cartao
+66,Ligacoes Excessivas
+67,Cartao
+68,Ligacoes Excessivas
+69,Conta Corrente
+70,Cambio
+71,Seguros
+72,Conta Corrente
+73,Seguros
+74,Ligacoes Excessivas
+75,Cambio
+76,Credito
+77,Ligacoes Excessivas
+78,Cartao
+79,Cartao
+80,Credito
+81,Cartao
+82,Cartao
+83,Conta Corrente
+84,Cartao
+85,Conta Corrente
+86,Seguros
+87,Cartao
+88,Conta Corrente
+89,Ligacoes Excessivas
+90,Seguros
+91,Cambio
+92,Cambio
+93,Seguros
+94,Seguros
+95,Seguros
+96,Credito
+97,Credito
+98,Cambio
+99,Conta Corrente
+100,Credito
+101,Ligacoes Excessivas
+102,Credito
+103,Conta Corrente
+104,Seguros
+105,Seguros
+106,Conta Corrente
+107,Conta Corrente
+108,Seguros
+109,Credito
+110,Credito
+111,Conta Corrente
+112,Ligacoes Excessivas
+113,Ligacoes Excessivas
+114,Cambio
+115,Cartao
+116,Seguros
+117,Seguros
+118,Credito
+119,Cartao
+120,Ligacoes Excessivas
+121,Cambio
+122,Ligacoes Excessivas
+123,Ligacoes Excessivas
+124,Credito
+125,Ligacoes Excessivas
+126,Credito
+127,Seguros
+128,Seguros
+129,Seguros
+130,Credito
+131,Ligacoes Excessivas
+132,Ligacoes Excessivas
+133,Ligacoes Excessivas
+134,Conta Corrente
+135,Credito
+136,Credito
+137,Conta Corrente
+138,Seguros
+139,Seguros
+140,Cartao
+141,Credito
+142,Conta Corrente
+143,Cambio
+144,Credito
+145,Conta Corrente
+146,Ligacoes Excessivas
+147,Cambio
+148,Ligacoes Excessivas
+149,Cambio
+150,Ligacoes Excessivas
+151,Cambio
+152,Cambio
+153,Cartao
+154,Cartao
+155,Credito
+156,Conta Corrente
+157,Ligacoes Excessivas
+158,Cartao
+159,Conta Corrente
+160,Cartao
+161,Cambio
+162,Conta Corrente
+163,Cambio
+164,Conta Corrente
+165,Conta Corrente
+166,Seguros
+167,Ligacoes Excessivas
+168,Cartao
+169,Cambio
+170,Conta Corrente
+171,Cartao
+172,Cartao
+173,Cartao
+174,Cambio
+175,Seguros
+176,Cartao
+177,Credito
+178,Ligacoes Excessivas
+179,Cartao
+180,Conta Corrente
+181,Cambio
+182,Conta Corrente
+183,Cartao
+184,Cambio
+185,Cambio
+186,Credito
+187,Seguros
+188,Cambio
+189,Ligacoes Excessivas
+190,Conta Corrente
+191,Credito
+192,Ligacoes Excessivas
+193,Ligacoes Excessivas
+194,Cartao
+195,Cartao
+196,Credito
+197,Cartao
+198,Cambio
+199,Conta Corrente
+200,Credito
+201,Cartao
+202,Cambio
+203,Cambio
+204,Ligacoes Excessivas
+205,Cambio
+206,Seguros
+207,Conta Corrente
+208,Credito
+209,Conta Corrente
+210,Seguros
+211,Cambio
+212,Cambio
+213,Cambio
+214,Conta Corrente
+215,Cambio
+216,Cambio
+217,Ligacoes Excessivas
+218,Credito
+219,Cartao
+220,Conta Corrente
+221,Cartao
+222,Cambio
+223,Seguros
+224,Ligacoes Excessivas
+225,Cartao
+226,Ligacoes Excessivas
+227,Cartao
+228,Cambio
+229,Conta Corrente
+230,Conta Corrente
+231,Cartao
+232,Cartao
+233,Ligacoes Excessivas
+234,Seguros
+235,Seguros
+236,Credito
+237,Conta Corrente
+238,Cartao
+239,Conta Corrente
+240,Seguros
+241,Seguros
+242,Cartao
+243,Seguros
+244,Credito
+245,Conta Corrente
+246,Credito
+247,Seguros
+248,Seguros
+249,Cambio
+250,Ligacoes Excessivas
+251,Cambio
+252,Ligacoes Excessivas
+253,Seguros
+254,Ligacoes Excessivas
+255,Credito
+256,Cambio
+257,Cartao
+258,Seguros
+259,Seguros
+260,Conta Corrente
+261,Seguros
+262,Conta Corrente
+263,Seguros
+264,Seguros
+265,Credito
+266,Credito
+267,Cartao
+268,Credito
+269,Cambio
+270,Cambio
+271,Ligacoes Excessivas
+272,Ligacoes Excessivas
+273,Seguros
+274,Ligacoes Excessivas
+275,Ligacoes Excessivas
+276,Seguros
+277,Seguros
+278,Credito
+279,Conta Corrente
+280,Seguros
+281,Seguros
+282,Seguros
+283,Credito
+284,Conta Corrente
+285,Cartao
+286,Ligacoes Excessivas
+287,Ligacoes Excessivas
+288,Cambio
+289,Conta Corrente
+290,Credito
+291,Credito
+292,Ligacoes Excessivas
+293,Ligacoes Excessivas
+294,Credito
+295,Conta Corrente
+296,Cambio
+297,Conta Corrente
+298,Seguros
+299,Cambio
+300,Ligacoes Excessivas
+301,Cartao
+302,Cartao
+303,Cambio
+304,Conta Corrente
+305,Credito
+306,Conta Corrente
+307,Ligacoes Excessivas
+308,Cambio
+309,Conta Corrente
+310,Conta Corrente
+311,Cambio
+312,Seguros
+313,Seguros
+314,Conta Corrente
+315,Cartao
+316,Cambio
+317,Cambio
+318,Credito
+319,Cartao
+320,Ligacoes Excessivas
+321,Credito
+322,Credito
+323,Cambio
+324,Ligacoes Excessivas
+325,Conta Corrente
+326,Credito
+327,Conta Corrente
+328,Ligacoes Excessivas
+329,Conta Corrente
+330,Ligacoes Excessivas
+331,Conta Corrente
+332,Conta Corrente
+333,Cartao
+334,Conta Corrente
+335,Cambio
+336,Ligacoes Excessivas
+337,Cartao
+338,Seguros
+339,Seguros
+340,Seguros
+341,Cartao
+342,Ligacoes Excessivas
+343,Credito
+344,Ligacoes Excessivas
+345,Ligacoes Excessivas
+346,Cartao
+347,Cambio
+348,Cartao
+349,Ligacoes Excessivas
+350,Seguros
+351,Seguros
+352,Ligacoes Excessivas
+353,Seguros
+354,Seguros
+355,Cartao
+356,Conta Corrente
+357,Cambio
+358,Cambio
+359,Credito
+360,Seguros
+361,Credito
+362,Ligacoes Excessivas
+363,Conta Corrente
+364,Conta Corrente
+365,Ligacoes Excessivas
+366,Cambio
+367,Ligacoes Excessivas
+368,Seguros
+369,Seguros
+370,Cartao
+371,Credito
+372,Credito
+373,Ligacoes Excessivas
+374,Seguros
+375,Conta Corrente
+376,Cambio
+377,Seguros
+378,Credito
+379,Cambio
+380,Seguros
+381,Ligacoes Excessivas
+382,Cambio
+383,Seguros
+384,Ligacoes Excessivas
+385,Seguros
+386,Cambio
+387,Seguros
+388,Seguros
+389,Cambio
+390,Seguros
+391,Cartao
+392,Conta Corrente
+393,Cartao
+394,Ligacoes Excessivas
+395,Conta Corrente
+396,Cartao
+397,Conta Corrente
+398,Seguros
+399,Cambio
+400,Conta Corrente
+401,Cartao
+402,Conta Corrente
+403,Seguros
+404,Credito
+405,Cartao
+406,Credito
+407,Cartao
+408,Cambio
+409,Conta Corrente
+410,Cambio
+411,Cartao
+412,Ligacoes Excessivas
+413,Credito
+414,Cambio
+415,Cambio
+416,Seguros
+417,Cambio
+418,Cambio
+419,Cambio
+420,Cartao
+421,Cartao
+422,Conta Corrente
+423,Conta Corrente
+424,Ligacoes Excessivas
+425,Credito
+426,Ligacoes Excessivas
+427,Cambio
+428,Cambio
+429,Conta Corrente
+430,Cartao
+431,Ligacoes Excessivas
+432,Seguros
+433,Conta Corrente
+434,Conta Corrente
+435,Credito
+436,Seguros
+437,Cartao
+438,Seguros
+439,Cambio
+440,Seguros
+441,Cartao
+442,Ligacoes Excessivas
+443,Cartao
+444,Conta Corrente
+445,Seguros
+446,Cartao
+447,Seguros
+448,Seguros
+449,Credito
+450,Seguros
+451,Cartao
+452,Cambio
+453,Cartao
+454,Cartao
+455,Ligacoes Excessivas
+456,Ligacoes Excessivas
+457,Conta Corrente
+458,Seguros
+459,Seguros
+460,Conta Corrente
+461,Cambio
+462,Credito
+463,Conta Corrente
+464,Conta Corrente
+465,Seguros
+466,Cambio
+467,Cartao
+468,Conta Corrente
+469,Seguros
+470,Credito
+471,Conta Corrente
+472,Ligacoes Excessivas
+473,Cambio
+474,Conta Corrente
+475,Cartao
+476,Seguros
+477,Cartao
+478,Conta Corrente
+479,Credito
+480,Credito
+481,Credito
+482,Credito
+483,Cambio
+484,Cartao
+485,Cambio
+486,Credito
+487,Cambio
+488,Ligacoes Excessivas
+489,Conta Corrente
+490,Credito
+491,Credito
+492,Cartao
+493,Cartao
+494,Cartao
+495,Seguros
+496,Ligacoes Excessivas
+497,Credito
+498,Conta Corrente
+499,Credito
+500,Conta Corrente

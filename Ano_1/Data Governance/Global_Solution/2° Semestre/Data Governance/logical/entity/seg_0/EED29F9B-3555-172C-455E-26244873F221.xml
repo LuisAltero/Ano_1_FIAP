@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EED29F9B-3555-172C-455E-26244873F221" name="T_SRC_LIXO">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 13:44:55 UTC</createdTime>
+<ownerDesignName>Data Governance</ownerDesignName>
+<engineerTo>
+<item key="FE3D59AA-C8BC-812C-026D-329A7F73173A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_lixo" id="A3A41E2F-57DE-54A7-1321-F495CA40F487">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:26:21 UTC</createdTime>
+<ownerDesignName>Data Governance</ownerDesignName>
+<engineerTo>
+<item key="FE3D59AA-C8BC-812C-026D-329A7F73173A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_tipo" id="6D57CB5A-8E13-59C5-64CE-811166E11E14">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:26:28 UTC</createdTime>
+<ownerDesignName>Data Governance</ownerDesignName>
+<engineerTo>
+<item key="FE3D59AA-C8BC-812C-026D-329A7F73173A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_cashback" id="6938414A-9CBE-5B12-51F8-21B8B3002C7E">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:26:37 UTC</createdTime>
+<ownerDesignName>Data Governance</ownerDesignName>
+<engineerTo>
+<item key="FE3D59AA-C8BC-812C-026D-329A7F73173A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="172B4B83-727E-BEE8-6296-5415CA846CCE" name="Tipo de Lixo PK">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:26:26 UTC</createdTime>
+<ownerDesignName>Data Governance</ownerDesignName>
+<engineerTo>
+<item key="FE3D59AA-C8BC-812C-026D-329A7F73173A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A3A41E2F-57DE-54A7-1321-F495CA40F487</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

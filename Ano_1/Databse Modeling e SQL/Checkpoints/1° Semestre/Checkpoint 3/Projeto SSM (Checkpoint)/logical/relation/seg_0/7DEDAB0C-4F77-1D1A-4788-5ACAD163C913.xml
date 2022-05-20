@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pertencerv2" directorySegmentName="seg_0" id="7DEDAB0C-4F77-1D1A-4788-5ACAD163C913">
+<createdBy>bruno</createdBy>
+<createdTime>2021-05-03 21:07:46 UTC</createdTime>
+<ownerDesignName>Projeto SSM (Checkpoint)</ownerDesignName>
+<engineerTo>
+<item key="0C20D50F-88A4-680D-86C5-25FD940ACE4D" value="true"/>
+</engineerTo>
+<sourcePk>CC8193A6-1806-E0C9-7F6C-56CB091B8E2C</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CE08C8FF-EB90-694A-548C-CB05CD60D4FD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C4130249-D12A-EB28-3833-B37ACCD37752</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

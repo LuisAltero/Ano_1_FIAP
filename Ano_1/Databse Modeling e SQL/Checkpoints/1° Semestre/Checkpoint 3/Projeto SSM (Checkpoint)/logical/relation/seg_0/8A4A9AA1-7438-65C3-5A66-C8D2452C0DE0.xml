@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Compor" directorySegmentName="seg_0" id="8A4A9AA1-7438-65C3-5A66-C8D2452C0DE0">
+<createdBy>bruno</createdBy>
+<createdTime>2021-05-03 20:37:43 UTC</createdTime>
+<ownerDesignName>Projeto SSM (Checkpoint)</ownerDesignName>
+<engineerTo>
+<item key="0C20D50F-88A4-680D-86C5-25FD940ACE4D" value="true"/>
+</engineerTo>
+<sourcePk>4A99F1D4-CDE2-72E2-0898-FC056042C80E</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>40027F92-A1F9-AB91-7A85-DA15D62062BC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>18DE218E-896E-8552-0405-68BFC944BEC6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

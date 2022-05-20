@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Projeto SSM (Checkpoint)" id="01A40B92-4446-1187-B3C1-4846E781D4B3" version="3.5">
+<createdBy>bruno</createdBy>
+<createdTime>2021-05-02 18:48:56 UTC</createdTime>
+<ownerDesignName>Projeto SSM (Checkpoint)</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>01A40B92-4446-1187-B3C1-4846E781D4B3</designId>
+</OSDM_Design>

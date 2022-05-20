@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CE08C8FF-EB90-694A-548C-CB05CD60D4FD" name="T_SSM_USUARIO">
+<createdBy>bruno</createdBy>
+<createdTime>2021-05-02 18:50:24 UTC</createdTime>
+<ownerDesignName>Projeto SSM (Checkpoint)</ownerDesignName>
+<engineerTo>
+<item key="0C20D50F-88A4-680D-86C5-25FD940ACE4D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_usuario" id="8B9927D1-EF90-C74E-CF7D-7FD3E9426659">
+<createdBy>bruno</createdBy>
+<createdTime>2021-05-02 19:09:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[RN30 – Código do usuário é um número com 6 dígitos. O usuário é identificado pelo
+código.]]></commentInRDBMS>
+<ownerDesignName>Projeto SSM (Checkpoint)</ownerDesignName>
+<engineerTo>
+<item key="0C20D50F-88A4-680D-86C5-25FD940ACE4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_pais" id="562C795D-C107-4C25-905B-84E3167D87E2">
+<createdBy>bruno</createdBy>
+<createdTime>2021-05-03 01:46:06 UTC</createdTime>
+<generatorID>8FC9FC7F-0BA6-5E56-1719-243B4B95B891</generatorID>
+<ownerDesignName>Projeto SSM (Checkpoint)</ownerDesignName>
+<engineerTo>
+<item key="0C20D50F-88A4-680D-86C5-25FD940ACE4D" value="true"/>
+</engineerTo>
+<referedAttribute>75FF3F5A-5AA5-0C65-E858-3114AD60E08E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_usuario" id="8817E1FC-D803-F9F6-35BA-F6EC2A11DD1E">
+<createdBy>bruno</createdBy>
+<createdTime>2021-05-02 19:09:22 UTC</createdTime>
+<ownerDesignName>Projeto SSM (Checkpoint)</ownerDesignName>
+<engineerTo>
+<item key="0C20D50F-88A4-680D-86C5-25FD940ACE4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="00B902E5-6AD2-B652-BF11-FAB42EA07859">
+<createdBy>bruno</createdBy>
+<createdTime>2021-05-02 19:09:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[RN03 – Todo usuário deve informar sua data de nascimento, utilizaremos este dado para
+cruzar informações e entender melhor o perfil de nossos usuários.]]></commentInRDBMS>
+<ownerDesignName>Projeto SSM (Checkpoint)</ownerDesignName>
+<engineerTo>
+<item key="0C20D50F-88A4-680D-86C5-25FD940ACE4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_genero" id="3946770C-F6DE-06F3-308E-F1FB76DF1A2F">
+<createdBy>bruno</createdBy>
+<createdTime>2021-05-02 19:09:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[RN02 – Os gêneros aplicados em nossos cadastros, são: Homem (H), Mulher (M) e não
+binário (NB).]]></commentInRDBMS>
+<ownerDesignName>Projeto SSM (Checkpoint)</ownerDesignName>
+<engineerTo>
+<item key="0C20D50F-88A4-680D-86C5-25FD940ACE4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone" id="2CBB3774-5A2B-E639-A2C9-5674102F4CBA">
+<createdBy>bruno</createdBy>
+<createdTime>2021-05-02 19:09:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[RN01 – Um usuário pode ter vários telefones (residencial, comercial, celular, recados),
+há usuários que não possuem ou não informam seus telefones. Devemos armazenar o
+número do DDD + número do telefone.]]></commentInRDBMS>
+<ownerDesignName>Projeto SSM (Checkpoint)</ownerDesignName>
+<engineerTo>
+<item key="0C20D50F-88A4-680D-86C5-25FD940ACE4D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_email" id="8E0C6EA6-C4CC-86C5-D01A-AF110462F865">
+<createdBy>bruno</createdBy>
+<createdTime>2021-05-02 19:09:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[RN04 – Todo usuário deve informar um e-mail válido e senha. O e-mail será utilizado
+para realizar acesso (identificação) ao sistema de streaming.]]></commentInRDBMS>
+<ownerDesignName>Projeto SSM (Checkpoint)</ownerDesignName>
+<engineerTo>
+<item key="0C20D50F-88A4-680D-86C5-25FD940ACE4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_senha" id="421022B7-A627-53D2-B634-2F7D4CCA1A33">
+<createdBy>bruno</createdBy>
+<createdTime>2021-05-02 19:09:40 UTC</createdTime>
+<ownerDesignName>Projeto SSM (Checkpoint)</ownerDesignName>
+<engineerTo>
+<item key="0C20D50F-88A4-680D-86C5-25FD940ACE4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CC8193A6-1806-E0C9-7F6C-56CB091B8E2C" name="T_SSM_USUARIO PK">
+<createdBy>bruno</createdBy>
+<createdTime>2021-05-02 19:10:16 UTC</createdTime>
+<ownerDesignName>Projeto SSM (Checkpoint)</ownerDesignName>
+<engineerTo>
+<item key="0C20D50F-88A4-680D-86C5-25FD940ACE4D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8B9927D1-EF90-C74E-CF7D-7FD3E9426659</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

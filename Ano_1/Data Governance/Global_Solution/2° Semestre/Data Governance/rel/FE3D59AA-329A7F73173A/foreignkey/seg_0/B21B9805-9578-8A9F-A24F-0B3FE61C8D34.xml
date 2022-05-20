@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B21B9805-9578-8A9F-A24F-0B3FE61C8D34" containerWithKeyObject="DCE893A2-DB96-569B-E379-8734E7DA4F3A" localFKIndex="289017B9-F5BD-652F-BEF2-5B0EFBF50A27" name="FK_SRC_DOADOR_LOCALIZACAO">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:52:46 UTC</createdTime>
+<generatorID>3977D8F5-4B0C-45D3-7DFE-B50B5695B737</generatorID>
+<ownerDesignName>Data Governance</ownerDesignName>
+<referredTableLongName>T_SRC_LOCALIZACAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4DEA75AD-8F70-4B6D-6049-F24985888C04</referredTableID>
+<keyObject>85877ABD-EF96-3D5F-63A7-698CE1434C36</keyObject>
+<referredKeyID>85877ABD-EF96-3D5F-63A7-698CE1434C36</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nr_cep</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1192B14A-F26F-9A4C-0B9D-B52B1B1702CD" name="T_SRC_POSTO_COLETA">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 13:49:37 UTC</createdTime>
+<ownerDesignName>Data Governance</ownerDesignName>
+<engineerTo>
+<item key="FE3D59AA-C8BC-812C-026D-329A7F73173A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_posto_coleta" id="D3DF7C94-77D7-C0DE-49C6-41AAFA20F491">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:27:10 UTC</createdTime>
+<ownerDesignName>Data Governance</ownerDesignName>
+<engineerTo>
+<item key="FE3D59AA-C8BC-812C-026D-329A7F73173A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cep" id="1D20CC58-3527-FF7F-0F12-D8870E9C2BB3">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:43:22 UTC</createdTime>
+<generatorID>0452B91D-858B-8B88-342B-E30EFE91D8F4</generatorID>
+<ownerDesignName>Data Governance</ownerDesignName>
+<engineerTo>
+<item key="FE3D59AA-C8BC-812C-026D-329A7F73173A" value="true"/>
+</engineerTo>
+<referedAttribute>2581E4FE-375E-3306-A1F7-35DD1A53D981</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6ED62FB3-644B-1F0F-CA2E-A77B19857F83" name="Posto de Coleta PK">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:27:29 UTC</createdTime>
+<ownerDesignName>Data Governance</ownerDesignName>
+<engineerTo>
+<item key="FE3D59AA-C8BC-812C-026D-329A7F73173A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D3DF7C94-77D7-C0DE-49C6-41AAFA20F491</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

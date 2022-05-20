@@ -1,0 +1,101 @@
+CodProd;Produto;Categoria;Segmento;Fabricante;CEP;Cidade;Estado;Região;Data;Quantidade;Preço Unitário;Custo
+791;Natura RP-79;Rural;Trabalho;Natura;18336;Rio Claro;SP;Sudeste;30/08/2021;566,57;41,15;16,46
+759;Natura RP-47;Rural;Trabalho;Natura;18337;Guarulhos;SP;Sudeste;31/08/2021;1217,57;40;16
+2345;Aliqui UE-19;Urbano;Radical;Aliqui;18337;Guarulhos;SP;Sudeste;01/09/2021;3569,54;32,43;12,98
+609;Maximus UC-74;Urbano;Dia-a-Dia;Maximus;18403;São Carlos;SP;Sudeste;02/09/2021;7179,83;36,43;14,58
+2045;Currus UE-05;Urbano;Radical;Currus;18407;Campinas;SP;Sudeste;07/09/2021;3359,55;37,86;15,15
+1109;Pirum RP-55;Rural;Trabalho;Pirum;18411;Araraquara;SP;Sudeste;07/09/2021;1679,56;32,72;13,09
+792;Natura RP-80;Rural;Trabalho;Natura;18413;Barueri;SP;Sudeste;07/09/2021;1510,72;35,15;14,06
+992;Natura UC-55;Urbano;Dia-a-Dia;Natura;18419;Pequenópolis;SP;Sudeste;07/09/2021;2435,56;36,15;14,46
+609;Maximus UC-74;Urbano;Dia-a-Dia;Maximus;18426;Nova Odessa;SP;Sudeste;07/09/2021;7179,83;37,86;15,15
+674;Maximus UC-39;Urbano;Dia-a-Dia;Maximus;18426;Nova Odessa;SP;Sudeste;07/09/2021;5709,84;35,29;14,12
+952;Natura UC-15;Urbano;Dia-a-Dia;Natura;18337;Guarulhos;SP;Sudeste;07/09/2021;2099,56;41,15;16,46
+533;Maximus UE-21;Urbano;Radical;Maximus;18407;Campinas;SP;Sudeste;07/09/2021;4197,86;34,29;13,72
+650;Maximus UC-15;Urbano;Dia-a-Dia;Maximus;18407;Campinas;SP;Sudeste;07/09/2021;4122,26;30,15;12,06
+2388;Aliqui UC-36;Urbano;Dia-a-Dia;Aliqui;18407;Campinas;SP;Sudeste;07/09/2021;2519,55;42;16,8
+1203;Pirum UC-05;Urbano;Dia-a-Dia;Pirum;18411;Araraquara;SP;Sudeste;07/09/2021;2561,55;34,15;13,66
+599;Maximus UC-64;Urbano;Dia-a-Dia;Maximus;18414;Santo André;SP;Sudeste;14/09/2021;7095,83;33,43;13,38
+2388;Aliqui UC-36;Urbano;Dia-a-Dia;Aliqui;18424;Taboão da Serra;SP;Sudeste;15/09/2021;2603,55;32,43;12,98
+633;Maximus UC-98;Urbano;Dia-a-Dia;Maximus;18426;Nova Odessa;SP;Sudeste;16/09/2021;4535,53;28,72;11,49
+2388;Aliqui UC-36;Urbano;Dia-a-Dia;Aliqui;18426;Nova Odessa;SP;Sudeste;17/09/2021;2519,55;39,58;15,84
+573;Maximus UC-38;Urbano;Dia-a-Dia;Maximus;18428;Santos;SP;Sudeste;18/09/2021;2349,88;39,43;15,78
+431;Maximus UM-36;Urbano;Clássico;Maximus;18428;Santos;SP;Sudeste;19/09/2021;8231,5;35,58;14,24
+2352;Aliqui UE-26;Urbano;Radical;Aliqui;18337;Guarulhos;SP;Sudeste;20/09/2021;2939,55;30,72;12,29
+2359;Aliqui UC-07;Urbano;Dia-a-Dia;Aliqui;18337;Guarulhos;SP;Sudeste;07/05/2021;3443,55;41,72;16,69
+400;Maximus UM-05;Urbano;Clássico;Maximus;18337;Guarulhos;SP;Sudeste;07/05/2021;6759,83;33,43;13,38
+1076;Pirum RP-22;Rural;Trabalho;Pirum;18337;Guarulhos;SP;Sudeste;07/05/2021;2036,56;36,43;14,58
+2225;Aliqui RP-22;Rural;Trabalho;Aliqui;18403;São Carlos;SP;Sudeste;07/05/2021;545,57;33,86;13,55
+1053;Pirum MA-11;Mix;Todas Estações;Pirum;18407;Campinas;SP;Sudeste;07/05/2021;2246,56;42,72;17,09
+1230;Pirum UC-32;Urbano;Dia-a-Dia;Pirum;18407;Campinas;SP;Sudeste;07/05/2021;4199,54;33,43;13,38
+2332;Aliqui UE-06;Urbano;Radical;Aliqui;18407;Campinas;SP;Sudeste;07/05/2021;3359,55;39;15,6
+487;Maximus UM-92;Urbano;Clássico;Maximus;18411;Araraquara;SP;Sudeste;28/09/2021;8819,49;37,29;14,92
+585;Maximus UC-50;Urbano;Dia-a-Dia;Maximus;18411;Araraquara;SP;Sudeste;29/09/2021;3359,55;34,43;13,78
+630;Maximus UC-95;Urbano;Dia-a-Dia;Maximus;18411;Araraquara;SP;Sudeste;30/09/2021;4113,86;39,72;15,89
+528;Maximus UE-16;Urbano;Radical;Maximus;18414;Santo André;SP;Sudeste;01/03/2021;4827,85;34,58;13,84
+2100;Currus YY-04;Jovem;Jovem;Currus;18426;Nova Odessa;SP;Sudeste;02/03/2021;3149,55;30,86;12,35
+396;Maximus UM-01;Urbano;Clássico;Maximus;18428;Santos;SP;Sudeste;03/03/2021;7011,83;35,43;14,18
+2334;Aliqui UE-08;Urbano;Radical;Aliqui;18431;São Vicente;SP;Sudeste;04/03/2021;2876,55;39,29;15,72
+2391;Aliqui UC-39;Urbano;Dia-a-Dia;Aliqui;18434;Guarujá;SP;Sudeste;05/03/2021;6173,52;36,58;14,64
+2402;Aliqui YY-11;Jovem;Jovem;Aliqui;18434;Guarujá;SP;Sudeste;05/03/2021;2435,56;33,29;13,32
+1096;Pirum RP-42;Rural;Trabalho;Pirum;18436;Bertioga;SP;Sudeste;05/03/2021;965,57;30;12
+1098;Pirum RP-44;Rural;Trabalho;Pirum;18436;Bertioga;SP;Sudeste;05/03/2021;2561,55;31,15;12,46
+964;Natura UC-27;Urbano;Dia-a-Dia;Natura;18438;Monte Sião;SP;Sudeste;05/03/2021;2519,55;38,15;15,26
+585;Maximus UC-50;Urbano;Dia-a-Dia;Maximus;18444;Ribeirão Preto;SP;Sudeste;05/03/2021;3359,55;40;16
+762;Natura RP-50;Rural;Trabalho;Natura;18444;Ribeirão Preto;SP;Sudeste;05/03/2021;1511,56;39,43;15,78
+792;Natura RP-80;Rural;Trabalho;Natura;18428;Santos;SP;Sudeste;05/03/2021;503,57;28,72;11,49
+1059;Pirum RP-05;Rural;Trabalho;Pirum;18428;Santos;SP;Sudeste;05/03/2021;1343,57;31,72;12,69
+1177;Pirum UE-13;Urbano;Radical;Pirum;18431;São Vicente;SP;Sudeste;05/03/2021;2099,56;37;14,8
+1191;Pirum UE-27;Urbano;Radical;Pirum;18431;São Vicente;SP;Sudeste;05/03/2021;2120,56;42,86;17,15
+2396;Aliqui YY-05;Jovem;Jovem;Aliqui;18431;São Vicente;SP;Sudeste;05/03/2021;776,57;30,43;12,18
+342;Fama UE-63;Urbano;Radical;Fama;18434;Guarujá;SP;Sudeste;05/03/2021;5457,85;30,15;12,06
+609;Maximus UC-74;Urbano;Dia-a-Dia;Maximus;18444;Ribeirão Preto;SP;Sudeste;05/03/2021;7179,83;29,58;11,84
+910;Natura UE-19;Urbano;Radical;Natura;18444;Ribeirão Preto;SP;Sudeste;05/03/2021;3317,55;39,58;15,84
+506;Maximus UM-11;Urbano;Clássico;Maximus;18447;Bebedouro;SP;Sudeste;20/03/2021;9995,48;41,72;16,69
+472;Maximus UM-77;Urbano;Clássico;Maximus;18336;Rio Claro;SP;Sudeste;21/03/2021;7690,12;42,15;16,86
+604;Maximus UC-69;Urbano;Dia-a-Dia;Maximus;18403;São Carlos;SP;Sudeste;22/03/2021;3958,46;32,72;13,09
+647;Maximus UC-12;Urbano;Dia-a-Dia;Maximus;18403;São Carlos;SP;Sudeste;23/03/2021;7478,03;33;13,2
+2054;Currus UE-14;Urbano;Radical;Currus;18428;Santos;SP;Sudeste;24/03/2021;4556,53;34,43;13,78
+797;Natura RS-01;Rural;Esporte Fino;Natura;18403;São Carlos;SP;Sudeste;25/03/2021;2477,56;34,58;13,84
+1483;Quibus RP-75;Rural;Trabalho;Quibus;18407;Campinas;SP;Sudeste;07/05/2021;608,15;32,86;13,15
+2388;Aliqui UC-36;Urbano;Dia-a-Dia;Aliqui;18436;Bertioga;SP;Sudeste;07/05/2021;2603,55;41,29;16,52
+647;Maximus UC-12;Urbano;Dia-a-Dia;Maximus;18411;Araraquara;SP;Sudeste;07/05/2021;7478,03;33,29;13,32
+2205;Aliqui RP-02;Rural;Trabalho;Aliqui;18439;Batatis;SP;Sudeste;07/05/2021;1175,57;30,15;12,06
+622;Maximus UC-87;Urbano;Dia-a-Dia;Maximus;18415;Santa Rita do Passa Quatro;SP;Sudeste;30/03/2021;6701,03;32,58;13,04
+550;Maximus UC-15;Urbano;Dia-a-Dia;Maximus;18444;Ribeirão Preto;SP;Sudeste;31/03/2021;3315,87;31,29;12,52
+2083;Currus UC-18;Urbano;Dia-a-Dia;Currus;18421;Presidente Prudente;SP;Sudeste;01/04/2021;2519,55;35,58;14,24
+465;Maximus UM-70;Urbano;Clássico;Maximus;18447;Bebedouro;SP;Sudeste;02/04/2021;9449,49;40,15;16,06
+769;Natura RP-57;Rural;Trabalho;Natura;18407;Campinas;SP;Sudeste;03/04/2021;2057,56;32;12,8
+604;Maximus UC-69;Urbano;Dia-a-Dia;Maximus;18426;Nova Odessa;SP;Sudeste;04/04/2021;3777,86;41,15;16,46
+467;Maximus UM-72;Urbano;Clássico;Maximus;18447;Bebedouro;SP;Sudeste;05/04/2021;7154,63;37,43;14,98
+1065;Pirum RP-11;Rural;Trabalho;Pirum;18428;Santos;SP;Sudeste;06/04/2021;2435,56;32;12,8
+631;Maximus UC-96;Urbano;Dia-a-Dia;Maximus;18447;Bebedouro;SP;Sudeste;07/04/2021;2769,87;42,29;16,92
+605;Maximus UC-70;Urbano;Dia-a-Dia;Maximus;18411;Araraquara;SP;Sudeste;07/04/2021;3189,87;42,86;17,15
+990;Natura UC-53;Urbano;Dia-a-Dia;Natura;18431;São Vicente;SP;Sudeste;07/04/2021;3527,54;29,86;11,95
+2269;Aliqui RS-02;Rural;Esporte Fino;Aliqui;18447;Bebedouro;SP;Sudeste;07/04/2021;2309,56;34,72;13,89
+1180;Pirum UE-16;Urbano;Radical;Pirum;18424;Taboão da Serra;SP;Sudeste;07/04/2021;4493,54;36,72;14,69
+2251;Aliqui RP-48;Rural;Trabalho;Aliqui;18434;Guarujá;SP;Sudeste;07/04/2021;1007,57;41,72;16,69
+550;Maximus UC-15;Urbano;Dia-a-Dia;Maximus;18470;Presidente Venceslau;SP;Sudeste;07/04/2021;3231,87;36,15;14,46
+1212;Pirum UC-14;Urbano;Dia-a-Dia;Pirum;18424;Taboão da Serra;SP;Sudeste;07/04/2021;3779,54;36,72;14,69
+1114;Pirum RS-02;Rural;Esporte Fino;Pirum;18425;Regente Feijó;SP;Sudeste;07/04/2021;1343,57;38,29;15,32
+1180;Pirum UE-16;Urbano;Radical;Pirum;18428;Santos;SP;Sudeste;07/04/2021;4199,54;39,58;15,84
+1884;Leo UC-03;Urbano;Dia-a-Dia;Leo;18431;São Vicente;SP;Sudeste;07/04/2021;6551,51;31,29;12,52
+2084;Currus UC-19;Urbano;Dia-a-Dia;Currus;18433;Sorocaba;SP;Sudeste;07/04/2021;5291,53;39,58;15,84
+571;Maximus UC-36;Urbano;Dia-a-Dia;Maximus;18436;Bertioga;SP;Sudeste;07/04/2021;4216,76;40,29;16,12
+2252;Aliqui RP-49;Rural;Trabalho;Aliqui;18436;Bertioga;SP;Sudeste;07/04/2021;1091,57;35,29;14,12
+605;Maximus UC-70;Urbano;Dia-a-Dia;Maximus;18438;Monte Sião;SP;Sudeste;07/04/2021;3189,87;34,29;13,72
+769;Natura RP-57;Rural;Trabalho;Natura;18444;Ribeirão Preto;SP;Sudeste;22/04/2021;2288,56;39,43;15,78
+2218;Aliqui RP-15;Rural;Trabalho;Aliqui;18445;Santa Cruz do Viterbo;SP;Sudeste;23/04/2021;1133,57;34,15;13,66
+1212;Pirum UC-14;Urbano;Dia-a-Dia;Pirum;18453;Avaí;SP;Sudeste;24/04/2021;3233,55;38,43;15,38
+1441;Quibus RP-33;Rural;Trabalho;Quibus;18472;Poços de Caldas;SP;Sudeste;25/04/2021;3989,54;30;12
+644;Maximus UC-09;Urbano;Dia-a-Dia;Maximus;18504;São Manuel;SP;Sudeste;26/04/2021;6980,33;31;12,4
+1105;Pirum RP-51;Rural;Trabalho;Pirum;18504;São Manuel;SP;Sudeste;27/04/2021;1973,56;40,86;16,35
+578;Maximus UC-43;Urbano;Dia-a-Dia;Maximus;18505;São Manuel;SP;Sudeste;28/04/2021;6299,52;42,58;17,04
+2016;Currus UR-19;Urbano;Regular;Currus;18505;São Manuel;SP;Sudeste;29/04/2021;2435,56;31,29;12,52
+2016;Currus UR-19;Urbano;Regular;Currus;18508;São Manuel;SP;Sudeste;30/04/2021;2414,56;35;14
+1850;Pomum YY-45;Jovem;Jovem;Pomum;18509;São Manuel;SP;Sudeste;01/05/2021;1217,57;32,15;12,86
+769;Natura RP-57;Rural;Trabalho;Natura;18518;Bauru;SP;Sudeste;02/05/2021;2099,56;42,58;17,04
+512;Maximus UR-01;Urbano;Regular;Maximus;18519;São Manuel;SP;Sudeste;03/05/2021;1845,88;40,86;16,35
+2073;Currus UC-08;Urbano;Dia-a-Dia;Currus;18519;São Manuel;SP;Sudeste;07/05/2021;2897,55;36,29;14,52
+1182;Pirum UE-18;Urbano;Radical;Pirum;18612;Bauru;SP;Sudeste;05/05/2021;1868,56;34,86;13,95
+1212;Pirum UC-14;Urbano;Dia-a-Dia;Pirum;18612;Bauru;SP;Sudeste;06/05/2021;3086,55;30,72;12,29
+1948;Currus RP-23;Rural;Trabalho;Currus;18615;Bauru;SP;Sudeste;07/05/2021;2372,56;38,58;15,44

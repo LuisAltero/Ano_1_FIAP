@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="24885E72-568F-8678-BD6F-56A8AC41C0CD" containerWithKeyObject="BBD296B6-A655-72DD-414B-9F51BA35020D" localFKIndex="5583E18A-865C-426C-886C-3FC2ECD32966" name="FK_SRC_DOACAO_POSTO_COLETA">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:52:46 UTC</createdTime>
+<generatorID>43AAFCC8-3CE9-F514-8EEF-1FC184AEC2CD</generatorID>
+<ownerDesignName>Data Governance</ownerDesignName>
+<referredTableLongName>T_SRC_POSTO_COLETA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BFD85C6E-BD15-FA99-AFF7-DB4372320F24</referredTableID>
+<keyObject>CA27CF30-995E-D623-F5C2-F015D4D7B347</keyObject>
+<referredKeyID>CA27CF30-995E-D623-F5C2-F015D4D7B347</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_posto_coleta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

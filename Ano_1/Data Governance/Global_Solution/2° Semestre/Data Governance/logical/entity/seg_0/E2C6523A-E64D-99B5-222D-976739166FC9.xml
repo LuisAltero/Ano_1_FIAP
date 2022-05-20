@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E2C6523A-E64D-99B5-222D-976739166FC9" name="T_SRC_DOADOR">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 13:43:35 UTC</createdTime>
+<ownerDesignName>Data Governance</ownerDesignName>
+<engineerTo>
+<item key="FE3D59AA-C8BC-812C-026D-329A7F73173A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_doador" id="DCDA0789-D00F-3D1A-AA83-992255972300">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:23:59 UTC</createdTime>
+<ownerDesignName>Data Governance</ownerDesignName>
+<engineerTo>
+<item key="FE3D59AA-C8BC-812C-026D-329A7F73173A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_doador" id="157EF099-16D2-98A0-B929-3CA14900E190">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:24:21 UTC</createdTime>
+<ownerDesignName>Data Governance</ownerDesignName>
+<engineerTo>
+<item key="FE3D59AA-C8BC-812C-026D-329A7F73173A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf_doador" id="BA2A2491-8B9E-1321-6995-0575A49D4AEB">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:24:35 UTC</createdTime>
+<ownerDesignName>Data Governance</ownerDesignName>
+<engineerTo>
+<item key="FE3D59AA-C8BC-812C-026D-329A7F73173A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_rg_doador" id="76363F52-A0CC-080A-DEA3-BAFB4C8C33AB">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:24:46 UTC</createdTime>
+<ownerDesignName>Data Governance</ownerDesignName>
+<engineerTo>
+<item key="FE3D59AA-C8BC-812C-026D-329A7F73173A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone" id="12452736-3FDE-1F8E-745F-CA0A53878124">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:24:55 UTC</createdTime>
+<ownerDesignName>Data Governance</ownerDesignName>
+<engineerTo>
+<item key="FE3D59AA-C8BC-812C-026D-329A7F73173A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_residencia_doador" id="8A6A9BD9-6635-4165-1CD1-A0ACF251E94F">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:25:38 UTC</createdTime>
+<ownerDesignName>Data Governance</ownerDesignName>
+<engineerTo>
+<item key="FE3D59AA-C8BC-812C-026D-329A7F73173A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_complemento" id="6C0635A5-2C61-9F4D-4380-756950688420">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:26:05 UTC</createdTime>
+<ownerDesignName>Data Governance</ownerDesignName>
+<engineerTo>
+<item key="FE3D59AA-C8BC-812C-026D-329A7F73173A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cep" id="0F3DE9C2-5F3B-31BD-AAFE-BC3C8DB3FCB7">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:43:26 UTC</createdTime>
+<generatorID>3977D8F5-4B0C-45D3-7DFE-B50B5695B737</generatorID>
+<ownerDesignName>Data Governance</ownerDesignName>
+<engineerTo>
+<item key="FE3D59AA-C8BC-812C-026D-329A7F73173A" value="true"/>
+</engineerTo>
+<referedAttribute>2581E4FE-375E-3306-A1F7-35DD1A53D981</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_instituicao" id="EB94A235-F524-4D93-A04D-71F4F22EDD0A">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:51:10 UTC</createdTime>
+<generatorID>2C8B3127-55EB-9155-415B-A2A6CE3BF802</generatorID>
+<ownerDesignName>Data Governance</ownerDesignName>
+<engineerTo>
+<item key="FE3D59AA-C8BC-812C-026D-329A7F73173A" value="true"/>
+</engineerTo>
+<referedAttribute>07EED6E8-45D7-9BFE-4FD0-74AF163BAAE2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="55FCBDC0-7A03-2EE3-3385-DF3918F6B884" name="Cadastro Doador PK">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:24:09 UTC</createdTime>
+<ownerDesignName>Data Governance</ownerDesignName>
+<engineerTo>
+<item key="FE3D59AA-C8BC-812C-026D-329A7F73173A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DCDA0789-D00F-3D1A-AA83-992255972300</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

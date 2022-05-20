@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="27528D34-F49E-8EC3-4C4E-424D6D096D22" name="T_SRC_LOCALIZACAO">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:23:24 UTC</createdTime>
+<ownerDesignName>Data Governance</ownerDesignName>
+<engineerTo>
+<item key="FE3D59AA-C8BC-812C-026D-329A7F73173A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_cep" id="2581E4FE-375E-3306-A1F7-35DD1A53D981">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:30:25 UTC</createdTime>
+<ownerDesignName>Data Governance</ownerDesignName>
+<engineerTo>
+<item key="FE3D59AA-C8BC-812C-026D-329A7F73173A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_rua" id="F999F84E-FD0E-330B-D4BD-08B8A69F70EB">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:32:05 UTC</createdTime>
+<ownerDesignName>Data Governance</ownerDesignName>
+<engineerTo>
+<item key="FE3D59AA-C8BC-812C-026D-329A7F73173A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_bairro" id="4F7B0C39-5760-1CC5-77DB-F3E0B15663A1">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:31:44 UTC</createdTime>
+<ownerDesignName>Data Governance</ownerDesignName>
+<engineerTo>
+<item key="FE3D59AA-C8BC-812C-026D-329A7F73173A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_cidade" id="531DDC92-B64B-36B0-FBEA-00E64FC865ED">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:30:39 UTC</createdTime>
+<ownerDesignName>Data Governance</ownerDesignName>
+<engineerTo>
+<item key="FE3D59AA-C8BC-812C-026D-329A7F73173A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_estado" id="0C632373-3D53-916B-13A5-56A1E2F1C023">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:30:53 UTC</createdTime>
+<ownerDesignName>Data Governance</ownerDesignName>
+<engineerTo>
+<item key="FE3D59AA-C8BC-812C-026D-329A7F73173A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="90C2D3F9-A7D4-01B0-43BC-2609C0CEBAF2" name="Localizacao PK">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 14:30:37 UTC</createdTime>
+<ownerDesignName>Data Governance</ownerDesignName>
+<engineerTo>
+<item key="FE3D59AA-C8BC-812C-026D-329A7F73173A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2581E4FE-375E-3306-A1F7-35DD1A53D981</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

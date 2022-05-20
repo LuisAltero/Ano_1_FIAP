@@ -1,0 +1,11 @@
+cd_cliente;nr_protocolo;st_analise;ds_depto
+0001;0001;amarelo;cartoes
+0002;0002;verde;cartoes
+0003;0003;amarelo;cartoes
+0004;0004;vermelho;cartoes
+0005;0005;vermelho;cartoes
+0005;0006;verde;cartoes
+0006;0007;amarelo;cartoes
+0006;0008;verde;cartoes
+0006;0009;verde;cartoes
+0007;0010;amarelo;cartoes

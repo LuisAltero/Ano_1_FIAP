@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Data Governance" id="A7AF9B99-DF02-7D00-78E8-EF14E6A9C260" version="3.5">
+<createdBy>bruno</createdBy>
+<createdTime>2021-11-04 13:42:34 UTC</createdTime>
+<ownerDesignName>Data Governance</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A7AF9B99-DF02-7D00-78E8-EF14E6A9C260</designId>
+</OSDM_Design>

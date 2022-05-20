@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="F7442DD5-C889-EC69-B10A-212BB64715D3" mainViewID="FF5FA0C7-F726-E307-C06F-2452E2B9E1D8">
+<createdBy>bruno</createdBy>
+<createdTime>2021-05-02 18:48:56 UTC</createdTime>
+<ownerDesignName>Projeto SSM (Checkpoint)</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

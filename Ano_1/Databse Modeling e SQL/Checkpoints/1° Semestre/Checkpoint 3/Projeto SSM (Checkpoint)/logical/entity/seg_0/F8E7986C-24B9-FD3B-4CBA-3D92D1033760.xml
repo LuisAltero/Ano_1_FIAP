@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F8E7986C-24B9-FD3B-4CBA-3D92D1033760" name="T_SSM_MUSICA">
+<createdBy>bruno</createdBy>
+<createdTime>2021-05-02 19:32:25 UTC</createdTime>
+<ownerDesignName>Projeto SSM (Checkpoint)</ownerDesignName>
+<engineerTo>
+<item key="0C20D50F-88A4-680D-86C5-25FD940ACE4D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_musica" id="06953F72-F3C8-BBE1-8468-30C6DD7A1047">
+<createdBy>bruno</createdBy>
+<createdTime>2021-05-02 19:32:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[RN36 – O código da música é um número com 5 dígitos.]]></commentInRDBMS>
+<ownerDesignName>Projeto SSM (Checkpoint)</ownerDesignName>
+<engineerTo>
+<item key="0C20D50F-88A4-680D-86C5-25FD940ACE4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_genero" id="B88B9170-29C8-7BE5-2DD2-B7BF926FB3CB">
+<createdBy>bruno</createdBy>
+<createdTime>2021-05-03 20:17:12 UTC</createdTime>
+<generatorID>78B2FAE7-806E-ACDC-059F-96005FEB343A</generatorID>
+<ownerDesignName>Projeto SSM (Checkpoint)</ownerDesignName>
+<engineerTo>
+<item key="0C20D50F-88A4-680D-86C5-25FD940ACE4D" value="true"/>
+</engineerTo>
+<referedAttribute>90D26CE0-274D-8D35-A10A-75BACD5E018D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_musica" id="5B8ED87B-344D-8DA7-1423-D815FA0CDA1B">
+<createdBy>bruno</createdBy>
+<createdTime>2021-05-02 19:32:25 UTC</createdTime>
+<ownerDesignName>Projeto SSM (Checkpoint)</ownerDesignName>
+<engineerTo>
+<item key="0C20D50F-88A4-680D-86C5-25FD940ACE4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_duracao_musica" id="5E489CF2-08D7-ECC2-A0AC-924F64298471">
+<createdBy>bruno</createdBy>
+<createdTime>2021-05-02 19:33:59 UTC</createdTime>
+<ownerDesignName>Projeto SSM (Checkpoint)</ownerDesignName>
+<engineerTo>
+<item key="0C20D50F-88A4-680D-86C5-25FD940ACE4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,1,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_localizacao_musica" id="A468762E-0CDE-419C-3730-87499638CC02">
+<createdBy>bruno</createdBy>
+<createdTime>2021-05-02 19:34:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[RN17 - Uma mesma música pode ser gravada em diferentes faixas de um mesmo álbum
+e/ou playlist, ou em álbuns e playlists diferentes.
+RN19 – Uma faixa de música de álbum deve pertencem a um álbum específico.]]></commentInRDBMS>
+<ownerDesignName>Projeto SSM (Checkpoint)</ownerDesignName>
+<engineerTo>
+<item key="0C20D50F-88A4-680D-86C5-25FD940ACE4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_composicao" id="DEFC9C66-C3BC-6AE1-1499-5B93B4822CBC">
+<createdBy>bruno</createdBy>
+<createdTime>2021-05-02 19:32:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[RN29 – Nem sempre sabemos a data de lançamento ou composição de uma música.]]></commentInRDBMS>
+<ownerDesignName>Projeto SSM (Checkpoint)</ownerDesignName>
+<engineerTo>
+<item key="0C20D50F-88A4-680D-86C5-25FD940ACE4D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D7FA444D-B516-16D3-451B-411D37E98B10" name="T_SSM_USUARIO PK">
+<createdBy>bruno</createdBy>
+<createdTime>2021-05-02 19:32:25 UTC</createdTime>
+<ownerDesignName>Projeto SSM (Checkpoint)</ownerDesignName>
+<engineerTo>
+<item key="0C20D50F-88A4-680D-86C5-25FD940ACE4D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>06953F72-F3C8-BBE1-8468-30C6DD7A1047</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

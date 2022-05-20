@@ -1,0 +1,6 @@
+{'Conta Corrente': ['senhas', 'senha', 'chave de segurança', 'chave', 'baixa automatica', 'limite', 'transferencia', 'transferir', 'tarifa bancaria'],
+'Cartoes': ['cartão de crédito', 'cartão de débito', 'cartão', 'anuidade', 'taxa', 'cesta de serviços'],
+'Credito': ['whatsapp', 'sms', 'score', 'empréstimo', 'financiar', 'financiamento', 'credor', 'negativo', 'negativado', 'divida', 'devendo', 'devedor', 'inadimplente', 'inadimplencia', 'atrasado'],
+'Cambio': ['moeda', 'conversão', 'cotação', 'dolar', 'euro', 'mercado financeiro'],
+'Seguros': ['seguro de vida', 'seguro de casa', 'roubo', 'furto', 'seguro de carro', 'seguro de moto', 'familia', 'filhos'],
+'Ligacoes excessivas': ['para de me ligar', 'não ligue mais', 'ligam sempre', 'muitas ligações']}

@@ -1,0 +1,69 @@
+CREATE TABLE EMP (cd_empregado STRING, nm_empregado STRING, ds_cargo STRING, cd_gerente STRING, dt_contratacao STRING, vl_salario STRING, vl_comissao STRING, cd_depto STRING) ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde' TBLPROPERTIES("skip.header.line.count"="1");
+
+CREATE TABLE EMP (cd_empregado INT, nm_empregado STRING, ds_cargo STRING, cd_gerente INT, dt_contratacao DATE, vl_salario FLOAT, vl_comissao FLOAT, cd_depto INT) ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde' TBLPROPERTIES("skip.header.line.count"="1");
+
+LOAD DATA LOCAL INPATH '/home/oracle/Downloads/empregados.csv' OVERWRITE INTO TABLE EMP;
+
+SELECT nm_empregado, vl_salario, dt_contratacao FROM emps;
+
+6)
+CREATE TABLE emps STORED AS ORC
+  AS SELECT CAST(cd_empregado AS INT) cd_empregado, nm_empregado, ds_cargo, 
+            CAST(cd_gerente AS INT) cd_gerente,
+TO_DATE(FROM_UNIXTIME(UNIX_TIMESTAMP(dt_contratacao,'dd/MM/yyyy'))) dt_contratacao,
+            CAST(vl_salario AS DECIMAL (7,2)) vl_salario,
+            CAST(vl_comissao AS DECIMAL (7,2)) vl_comissao,
+            CAST(cd_depto AS INT) cd_depto
+  FROM emp;
+
+
+7) SELECT nm_empregado, vl_salario, ds_cargo FROM emps WHERE vl_salario > 2850;
+
+
+8)
+SELECT concat(nm_empregado, 'tem o cargo de', ds_cargo) AS alias FROM EMP;
+
+9)
+SELECT nm_empregado, vl_salario FROM emps WHERE vl_salario >= 1000 and vl_salario <= 3000;
+
+10)
+
+SELECT nm_empregado, ds_cargo, vl_salario FROM emps WHERE vl_salario >= 1500 and vl_salario <= 5000 and ds_cargo = 'COORDENADOR' or ds_cargo = 'ADMINISTRATIVO'; 
+
+
+11)
+SELECT COUNT(*) FROM emps;
+
+
+12)
+SELECT ds_cargo, COUNT(*) TOTAL
+  FROM emps
+ GROUP BY ds_cargo;
+
+
+
+SELECT ds_cargo, COUNT(nm_empregado) TOTAL FROM emps GROUP BY ds_cargo;
+
+SELECT ds_cargo, MIN(nm_empregado) TOTAL FROM emps GROUP BY ds_cargo;
+
+SELECT ds_cargo, MAX(nm_empregado) TOTAL FROM emps GROUP BY ds_cargo;
+
+SELECT ds_cargo, SUM(nm_empregado) TOTAL FROM emps GROUP BY ds_cargo;
+
+SELECT ds_cargo, AVG(nm_empregado) TOTAL FROM emps GROUP BY ds_cargo;
+
+SELECT ds_cargo, STDDEVnm_empregado) TOTAL FROM emps GROUP BY ds_cargo;
+
+
+
+
+
+
+
+
+
+
+
+
+
+

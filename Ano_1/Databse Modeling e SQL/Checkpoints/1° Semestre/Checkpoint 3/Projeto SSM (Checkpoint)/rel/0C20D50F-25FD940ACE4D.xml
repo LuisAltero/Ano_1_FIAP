@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="0C20D50F-88A4-680D-86C5-25FD940ACE4D" mainViewID="6FFEA75D-FDD0-DF0D-1F74-BBC04475D318">
+<createdBy>bruno</createdBy>
+<createdTime>2021-05-02 18:48:58 UTC</createdTime>
+<ownerDesignName>Projeto SSM (Checkpoint)</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>
