@@ -1,0 +1,4 @@
+1 - São Paulo
+2 - Rio de Janeiro
+3 - Belo Horizonte
+4 - Curitiba
